@@ -16,28 +16,39 @@
 <body>
 
   <div class="search-box">
-    <img src="./images/search.png">
-    <input id="search" type="text" name="" value="今天吃点什么？">
+    <i class="triangle-icon" style="display:none"></i>
+    <img class="search-icon" src="./images/search.png">
+    <input class="search-input" type="text" name="" placeholder="今天想吃点什么？">
+    <p class="search-text" style="display:none">搜索</p>
   </div>
-  <div class="photo-search">
+  <div class="photo-search home-init">
     <img src="./images/photo.png">
   </div>
-  <div class="home-text">
+  <div class="home-text home-init">
     <a href="fashion.html" class="fashion-entry">本周流行</a>
     <p class="slogan">食材有性格，食物总动员</p>
   </div>
-  <div class="bottom-box">
+  <div class="bottom-box  home-init">
     <div class="bottom-banner">
       <a href="classification.html">菜谱分类</a>
     </div>
-    <div class="bottom-banner">
+    <div class="bottom-banner home-init">
       <a href="collect.html">我的收藏</a>
     </div>
   </div>
-  
+
   <div class="layer-box" style="display:none">
     <p class="layer-tip-text">暂不支持搜图</p>
   </div>
+
+    <div class="search-history" style="display:none">
+        <div class="title">搜索历史</div>
+        <span class="search-key">家常菜</span>
+        <span class="search-key">素菜</span>
+        <span class="search-key">快手菜</span>
+        <span class="search-key">糖醋排骨</span>
+    </div>
+
 </body>
 <script type="text/javascript" src="./js/libs/zepto.min.js"></script>
 <script type="text/javascript" src="./js/home.js"></script>

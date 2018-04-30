@@ -1,102 +1,158 @@
 .search-box {
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 9rem;
-  width: 90%;
-  background-color: #f3f2f2;
-  border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 9rem;
+    width: 90%;
+    background-color: #f3f2f2;
+    border-radius: 5px;
 }
 
-.search-box input {
-  background-color: #f3f2f2;
-  width: 50%;
-  height: 3.5rem;
-  border: none;
-  margin: 0 auto;
-  border-radius: 4px;
-  font-size: 1.3rem;
-  font-weight: lighter;
-  text-align: center;
+.search-input {
+    background-color: #f3f2f2;
+    width: 50%;
+    height: 3.5rem;
+    border: none;
+    margin: 0 auto;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    text-align: center;
 }
 
-.search-box img {
-  width: 1.8rem;
-  height: 1.8rem;
-  vertical-align: text-bottom;
-  display: inline-block;
+.search-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    vertical-align: text-bottom;
+    display: inline-block;
 }
 
 .photo-search {
-  text-align: center;
-  width: 3rem;
-  height: 3rem;
-  line-height: 2.5rem;
-  margin: 0 auto;
-  background-color: #f56747;
-  margin-top: 2rem;
-  border-radius: 1.5rem;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    line-height: 2.5rem;
+    margin: 0 auto;
+    background-color: #f56747;
+    margin-top: 2rem;
+    border-radius: 1.5rem;
 }
 
 .photo-search img {
-  width: 2rem;
-  height: 2rem;
-  vertical-align: middle;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
 }
 
 .bottom-box {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  display: flex;
-  justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 .home-text {
-  text-align: center;
-  margin-top: 2.5rem;
-  line-height: 2rem;
+    text-align: center;
+    margin-top: 2.5rem;
+    line-height: 2rem;
 }
 
 .fashion-entry {
-  color: #f56747;
-  font-size: .9rem;
+    color: #f56747;
+    font-size: .9rem;
 }
 
 .slogan {
-  color: #ccc;
-  font-size: .7rem;
-  font-weight: lighter;
+    color: #ccc;
+    font-size: .7rem;
+    font-weight: lighter;
 }
 
 .bottom-banner {
-  flex-grow: 1;
-  text-align: center;
-  height: 5rem;
-  line-height: 5rem;
-  background-color: #ea6e58;
+    flex-grow: 1;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+    background-color: #ea6e58;
 }
 
 .bottom-banner a {
-  color: #fff;
+    color: #fff;
 }
-.layer-box{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+
+.layer-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
-.layer-tip-text{
-  width: 10rem;
-  height: 5rem;
-  text-align: center;
-  border-radius: 1rem;
-  background-color: #f3f1f1;
-  color: #ec2f2f;
-  line-height: 5rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -2.5rem;
-  margin-left: -5rem;
+
+.layer-tip-text {
+    width: 10rem;
+    height: 5rem;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #f3f1f1;
+    color: #ec2f2f;
+    line-height: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -2.5rem;
+    margin-left: -5rem;
+}
+
+.search-status {
+    padding-top: 5rem;
+    margin: 2rem 1rem 0 1rem;
+    background-color: #f3f2f2;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.input-active {
+    text-align: left;
+    margin-left: 0.5rem;
+    text-align: left;
+    width: 80%;
+}
+
+.triangle-icon {
+    position: absolute;
+    left: 50%;
+    margin-left: -7.5px;
+    top: 1rem;
+    height: 15px;
+    width: 15px;
+    border-left: 2px solid #928f8f;
+    border-bottom: 2px solid #797878;
+    transform: translate3d(0, -50%, 0) rotate(-45deg);
+    -webkit-transform: translate3d(0, -50%, 0) rotate(-45deg);
+}
+
+.search-text {
+    color: #ea6e58;
+    display: inline-block;
+    font-size: 1.3rem;
+}
+
+.search-history {
+    margin: 2rem 1rem;
+}
+
+.title {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.8rem;
+}
+
+.search-key {
+    display: inline-block;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ea6e58;
+    padding: 1rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 2rem;
+    box-sizing: content-box;
 }
