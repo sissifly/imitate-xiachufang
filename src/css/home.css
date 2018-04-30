@@ -1,0 +1,102 @@
+.search-box {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 9rem;
+  width: 90%;
+  background-color: #f3f2f2;
+  border-radius: 5px;
+}
+
+.search-box input {
+  background-color: #f3f2f2;
+  width: 50%;
+  height: 3.5rem;
+  border: none;
+  margin: 0 auto;
+  border-radius: 4px;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.search-box img {
+  width: 1.8rem;
+  height: 1.8rem;
+  vertical-align: text-bottom;
+  display: inline-block;
+}
+
+.photo-search {
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+  line-height: 2.5rem;
+  margin: 0 auto;
+  background-color: #f56747;
+  margin-top: 2rem;
+  border-radius: 1.5rem;
+}
+
+.photo-search img {
+  width: 2rem;
+  height: 2rem;
+  vertical-align: middle;
+}
+
+.bottom-box {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-text {
+  text-align: center;
+  margin-top: 2.5rem;
+  line-height: 2rem;
+}
+
+.fashion-entry {
+  color: #f56747;
+  font-size: .9rem;
+}
+
+.slogan {
+  color: #ccc;
+  font-size: .7rem;
+  font-weight: lighter;
+}
+
+.bottom-banner {
+  flex-grow: 1;
+  text-align: center;
+  height: 5rem;
+  line-height: 5rem;
+  background-color: #ea6e58;
+}
+
+.bottom-banner a {
+  color: #fff;
+}
+.layer-box{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.layer-tip-text{
+  width: 10rem;
+  height: 5rem;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: #f3f1f1;
+  color: #ec2f2f;
+  line-height: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -2.5rem;
+  margin-left: -5rem;
+}

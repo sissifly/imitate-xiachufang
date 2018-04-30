@@ -1,0 +1,111 @@
+{
+    globals: {
+        '$': true                     // zepto
+    },
+    "env": {
+        "browser":                    true,
+        "node":                       true
+    },
+    "rules": {
+        // 禁止不必要的分号，即不能同时有两个分号
+        'no-extra-semi':              'error',
+        // 禁止使用拖尾逗号
+        'comma-dangle':               ["error", "never"],
+        // array函数必须返回值
+        'array-callback-return':      'error',
+        // 变量只能在其作用域内使用
+        'block-scoped-var':           'error',
+        // 语句结束必须加分号
+        'semi':                       ['error', 'always'],
+        // 禁用未声明的变量
+        'no-undef':                   'error',
+        // 禁止出现未使用过的变量
+        'no-unused-vars': ['error', {'args': 'none'}],
+        // 禁止执行不到的代码
+        'no-unreachable':             'error',
+        // 禁止不规则的取非
+        'no-unsafe-negation':         'error',
+        // 强制使用typeof()判断数据类型
+        'valid-typeof':               'error',
+        // 禁止使用令人困惑的多行表达式
+        'no-unexpected-multiline':    'error',
+        // 强制使用isNaN比较NaN
+        'use-isnan':                  'error',
+        // 点操作符和属性放在同一行
+        'dot-location':               ['error', 'property'],
+        // 数组中不允许逗号之间无数据
+        'no-sparse-arrays':           'error',
+        // 禁止使用多行字符串
+        'no-multi-str':               'error',
+        // 禁止对原生对象赋值
+        'no-native-reassign':         'error',
+        // 缩进4格
+        'indent': ['error', 2, {'SwitchCase': 1}],
+        // 允许使用console
+        'no-console':                 ['off'],
+        // 禁止方法定义中出现重名参数
+        'no-dupe-args':               'error',
+        // 禁止对象属性中出现重复的变量
+        'no-dupe-keys':               'error',
+        // 禁止出现重复的case标签
+        'no-duplicate-case':          'error',
+        // 禁止在正则表达式中出现空字符集
+        'no-empty-character-class':   'error',
+        // 禁止在 RegExp 构造函数中出现无效的正则表达式
+        'no-invalid-regexp':          'error',
+        // 禁止出现空语句块
+        'no-empty':                   'error',
+        // 禁用debugger
+        'no-debugger':                'error',
+        // 禁止在条件中使用常量表达式
+        'no-constant-condition':      'error',
+        // 大括号规则：允许单行时省略大括号，但必须保持一致
+        'curly':                      ['error', 'multi-line'],
+        // 禁止与null比较
+        'no-eq-null':                 'error',
+        // 禁止多次声明同一变量
+        'no-redeclare': ['error', {'builtinGlobals': true}],
+        // 禁止自我赋值
+        'no-self-assign':             'error',
+        // 禁止自身比较
+        'no-self-compare':            'error',
+        // 禁用不必要的 .call() 和 .apply()
+        'no-useless-call':            'error',
+        // 禁止没有必要的字符拼接
+        'no-useless-concat':          'error',
+        // 禁用不必要的转义
+        'no-useless-escape':          'error',
+        // 需要把立即执行的函数包裹起来，比如 (function () { return { y: 1 };})();
+        'wrap-iife':                  [ 'error', 'any' ],
+        // 不允许改变用 const 声明的变量
+        'no-const-assign':            'error',
+        // 关键字不能被遮蔽
+        'no-shadow-restricted-names': 'error',
+        // 逗号前无空格，逗号后有空格
+        'comma-spacing': ['error', {'before': false, 'after': true}],
+        // 禁用不必要的嵌套块
+        'no-lone-blocks':             'error',
+        // 禁止在返回语句中赋值
+        'no-return-assign':           'error',
+
+        // --------------------- 建议风格 ---------------------
+        // 警告如TODO、FIXME之类的注释
+        'no-warning-comments':        'warn',
+        // 最外层使用单引号，内部使用别的引号，否则需要转义
+        'quotes': ['warn', 'single', {'avoidEscape': true}],
+        // 强制回调函数最大嵌套深度
+        'max-nested-callbacks':       [ 'warn', 10 ],
+        // 禁止tab和space混用
+        'no-mixed-spaces-and-tabs':   'warn',
+        // 不允许多个空行
+        'no-multiple-empty-lines': ['warn', {'max': 2}],
+        // 禁止在 else 前有 return
+        'no-else-return':             'warn',
+        // 禁止出现多个空格
+        'no-multi-spaces':            'warn',
+        // 对象键值之间空格形式。eg. "key":      value
+        'key-spacing': ['warn', {'beforeColon': false, 'afterColon': true, 'mode': 'strict'}],
+        // 禁止出现空函数
+        'no-empty-function':          'warn'
+    }
+}

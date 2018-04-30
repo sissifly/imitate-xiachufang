@@ -1,0 +1,78 @@
+.head-nav {
+    border-bottom: 1px solid #f0eeee;
+    padding: 0 2rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+.goback {
+    display: block;
+    height: 2.5rem;
+    width: 4rem;
+}
+.goback span{
+    line-height: 2.5rem;
+    position: relative;
+    left: 1rem;
+    color: #ea6e58;
+}
+.goback::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-left: 1px solid #191919;
+    border-top: 1px solid #191919;
+    transform: translate3d(0, -50%, 0) rotate(-45deg);
+    -webkit-transform: translate3d(0, -50%, 0) rotate(-45deg);
+}
+
+.fashion-food-box {
+    padding: 0 2rem;
+}
+
+.fashion-food {
+    position: relative;
+}
+
+.fashion-food-img {
+    width: 100%;
+}
+
+.descrption {
+    margin-top: 1rem;
+}
+
+.descrption .title {
+    font-size: 1.5rem;
+}
+
+.evaluate {
+    padding: .5rem 0;
+    color: #585858;
+    font-weight: lighter;
+}
+
+.author-info {
+    position: absolute;
+    right: 0;
+    bottom: .5rem;
+    text-align: center;
+}
+
+.author-picture {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+}
+
+.auto-name {
+    color: #706e6e;
+    font-size: .6rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 5rem;
+}

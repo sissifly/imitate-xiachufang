@@ -1,0 +1,16 @@
+{
+  "name": "pwa-demo",
+  "version": "1.0.0",
+  "description": "仿下厨房小程序页面，尝试使用pwa技术",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^2.15.1",
+    "http-proxy": "^1.17.0",
+    "mime": "^2.3.1"
+  }
+}
