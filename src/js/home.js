@@ -1,4 +1,15 @@
 $(function(){
+  // 接口请求
+  fetch('./data/data.json')
+  .then(function(response) {
+    console.log(response)
+    return response.json();
+  })
+  .then(function(myJson) {
+    console.log(myJson);
+    $('.slogan').html(myJson.message);
+  });
+
   // 以图搜图
   $('.photo-search').on('click', function(){
     $('.layer-box').show();
