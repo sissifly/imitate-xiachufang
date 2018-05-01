@@ -1,0 +1,35 @@
+{
+  "name": "下厨房",
+  "short_name": "cooking",
+  "start_url": "../home.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "scope": "../",
+  "theme_color": "blue",
+  "description": "A simply app for searching cookbooks.",
+  "icons": [{
+    "src": "../images/app-icon.jpg",
+    "sizes": "48x48",
+    "type": "image/jpg"
+  },{
+    "src": "../images/app-icon.jpg",
+    "sizes": "52x52",
+    "type": "image/jpg"
+  },{
+    "src": "../images/app-icon.jpg",
+    "sizes": "57x57",
+    "type": "image/jpg"
+  },{
+    "src": "../images/app-icon.jpg",
+    "sizes": "60x60",
+    "type": "image/jpg"
+  },{
+    "src": "../images/app-icon.jpg",
+    "sizes": "72x72",
+    "type": "image/jpg"
+  },{
+    "src": "../images/app-icon.jpg",
+    "sizes": "76x76",
+    "type": "image/jpg"
+  }]
+}
